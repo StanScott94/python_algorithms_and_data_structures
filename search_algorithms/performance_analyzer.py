@@ -34,7 +34,7 @@ def performance_analyzer():
     while running:
         try:
             list_size, iterations = user_input()
-            if list_size <= 5000000:
+            if list_size <= 2000000:
                 list_of_domains = ["@python.com", "@java.co.uk", "@cobol.net", "@assembler.co.za"]
                 email_to_find = "you_found_me@nice.com"
                 length_of_name = 10
