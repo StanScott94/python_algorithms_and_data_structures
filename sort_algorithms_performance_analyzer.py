@@ -1,12 +1,12 @@
 from random import randint
 import time
-from bubble_sort import bubble_sort
-from selection_sort import selection_sort
-from insertion_sort import insertion_sort
-from merge_sort import merge_sort
-from quick_sort_inplace import quick_sort_inplace
-from quick_sort_basic import quick_sort_basic
-from heap_sort import heap_sort
+from sort_algorithms.bubble_sort import bubble_sort
+from sort_algorithms.selection_sort import selection_sort
+from sort_algorithms.insertion_sort import insertion_sort
+from sort_algorithms.merge_sort import merge_sort
+from sort_algorithms.quick_sort_inplace import quick_sort_inplace
+from sort_algorithms.quick_sort_basic import quick_sort_basic
+from sort_algorithms.heap_sort import heap_sort
 
 def user_input():
     list_size = int(input("define list size to analyze: "))

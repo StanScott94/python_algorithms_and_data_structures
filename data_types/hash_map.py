@@ -53,10 +53,3 @@ class HashMap:
 
     def __str__(self):
         return "".join(str(item) for item in self.hash_table)
-
-hash_table = HashMap(256)
-hash_table.set_value('test@test.com', {'first_name':'test', 'last_name':'user'})
-hash_table.set_value('testies@test.com', {'first_name':'noob', 'last_name':'tube'})
-print("pop", hash_table.pop('testies@test.com', 'item not found'))
-hash_table.set_value('testies@test.com', {'first_name':'noob', 'last_name':'tube'})
-print(hash_table)
