@@ -4,7 +4,7 @@ from string import ascii_lowercase as letters
 def generate_name(length_of_name):
         return ''.join(choice(letters) for index in range(length_of_name))
 
-def email_generator(list_size, emails_to_add=[], length_of_name=10, list_of_domains=None):
+def email_generator(list_size=1, emails_to_add=[], length_of_name=10, list_of_domains=None):
 
     if list_of_domains is None:
         list_of_domains = ["@python.com", "@java.co.uk", "@cobol.net", "@assembler.co.za"]
